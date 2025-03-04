@@ -28,7 +28,7 @@ def main():
         except ValueError:
             print("Invalid input! Please enter an integer.")
 
-    print("\nAll (sorted):", sorted(numbers, reverse=True))
+    print("All (sorted):", sorted(numbers, reverse=True))
     print("Evens:", evens)
     print("Odds:", odds)
 
